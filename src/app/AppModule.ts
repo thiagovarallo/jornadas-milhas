@@ -8,6 +8,8 @@ import { CardComponent } from './shared/card/card.component';
 import { HeaderComponent } from './shared/header/header.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import { ContainerComponent } from './shared/container/container.component';
+import { HomeComponent } from './pages/home/home.component';
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import {MatButtonModule} from '@angular/material/button';
     BannerComponent,
     CardComponent,
     HeaderComponent,
+    ContainerComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
